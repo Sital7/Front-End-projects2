@@ -1,0 +1,192 @@
+<html>
+    <head>
+        <nav>
+        <title>Home Page</title>
+        <a href="#Home"><span>Home</span></a>
+        <a href="#About Us"><span>About Us</span></a>
+        <a href="#Table"><span>Table</span></a>
+        <a href="#Contact"><span>Contact</span></a>
+    </nav>
+        
+    </head>
+    <body>
+        <style>
+              /* Styling for the navigation bar */
+        nav {
+            background-color: #333;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            padding: 8px 15px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #575757;
+        }
+
+        nav a span {
+            font-weight: bold;
+        }
+
+        /* General body styling */
+        body {
+            background-color: #121212; /* Dark background for black theme */
+            color: #f0f0f0; /* Light text for contrast */
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Style the About Us section */
+        #About\ Us {
+            background-color: #1a1a1a; /* Dark card-like background */
+            border: 2px solid #333; /* Subtle border for definition */
+            padding: 20px 30px;
+            border-radius: 10px;
+            width: 80%;
+            margin: 30px auto;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Shadow for depth */
+        }
+
+        #About\ Us h2 {
+            font-size: 28px;
+            color: #00ffcc; /* Bright accent color for the title */
+            text-align: center;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+        }
+
+        #About\ Us p {
+            font-size: 18px;
+            color: #cccccc; /* Muted light gray for body text */
+            text-align: justify; /* Align text for better readability */
+            margin: 0;
+        }
+
+        /* Link styles (if hyperlinks are added) */
+        a {
+            color: #00ace6;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Responsive design */
+        @media (max-width: 768px) {
+            #About\ Us {
+                width: 95%;
+                padding: 15px;
+            }
+
+            #About\ Us h2 {
+                font-size: 24px;
+            }
+
+            #About\ Us p {
+                font-size: 16px;
+            }
+        }
+
+
+        </style>
+        
+        <div id="Home" style="background-color: lightblue; padding: 10px; text-align: center;">
+            <h1>Red Cap Resort</h1>
+            <!-- <p>This is my home page</p> -->
+         <img src="assets/pic.png" alt="Home" height="70%"width="100%" display: flex;>
+        </div>
+        <!-- <hr> -->
+        <div id="About Us">
+        <h2>About</h2>
+        <p>Set on 37 acres of landscaped grounds, Hyatt Regency Kathmandu is a luxury five-star hotel 
+            designed in traditional Newari-style architecture, ideally located only 4 kilometres away 
+            from the international airport. Situated in a city with a plethora of ancient sites and 
+            fascinating architecture, our hotel is a gateway to the city’s top attractions like 
+            Boudhanath, Pashupatinath, Basantapur, Thamel, Bhaktapur Durbar Square, Patan Durbar Square 
+            and much more. You not only experience luxurious hospitality, but you also get a cultural 
+            fest while at Hyatt Regency Kathmandu.</p>
+
+            <img src="assets/ppppp.png" alt="About"height="70%" width="100%" display: flex;>
+
+        <!-- <ul>Skills
+            <li>Flutter</li>
+            <li>React</li>
+            <li>Backend</li>
+        </ul>
+        <ol>Hobbies
+            <li>Reading Books</li>
+            <li>Basket Ball</li>
+        </ol> -->
+    </div>
+        <!-- <hr> -->
+        <div id="Contact">
+
+        <form>
+            <h1>Contact</h1>
+            <label>Name</label>
+            <input type="text"><br><br>
+
+            <label>Email</label>
+            <input type="text"><br><br>
+
+            <input type="radio" name="gender">Male
+            <input type="radio"  name="gender">Female
+            <br><br>
+            <!-- <label>Description</label>
+            <textarea> -->
+
+            <label>Reason to contact </label>
+            <select>
+                <option>buy products</option>
+                <option>sell products</option>
+            </select>
+            <br><br>
+            <button>Submit</button>
+
+        </form>
+    </div>
+        
+        <div id="Table">
+        <table border="1" cellspacing="0" cellpading="0" >
+            <h1>Table</h1>
+            <tr>
+            <th>S.N</th>
+            <th>Name</th>
+            <th>Address</th>
+            </tr>
+
+            <tr>
+                <td>1</td>
+                <td>ram</td>
+                <td>kalanki</td>
+                </tr>
+
+            <tr>
+                <td>2</td>
+                <td>Hari</td>
+                <td>kalanki</td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>shyam</td>
+                <td>kalanki</td>
+            </tr>
+        </table>
+    </div>
+<!-- </div> -->
+
+    </body>
+</html>
